@@ -1,0 +1,15 @@
+# never commit data, models or results
+Dataset/
+models/
+results/
+*.wav
+*.flac
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.xlsx
+speakers_meta.csv
+__pycache__/

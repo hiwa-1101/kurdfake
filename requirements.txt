@@ -1,0 +1,11 @@
+# Python 3.8, tested on Windows 10 with CUDA 12.1
+torch==2.4.1
+torchaudio==2.4.1
+numpy
+scipy
+soundfile
+pyyaml
+safetensors
+speechbrain          # ECAPA-TDNN feature/model classes (asv_eval.py)
+onnxruntime==1.19.2  # Vekol TTS (spoof_tts_vekol.py)
+# F5-TTS stack (spoof_f5.py / kf_f5.py): f5_tts (SWivid/F5-TTS) and vocos; see the header of kf_f5.py
